@@ -1,0 +1,71 @@
+    // const middleEastCountries = {
+    //     eg: "مصر",
+    //     bh: "البحرين",
+    //     ir: "ايران",
+    //     iq: "العراق",
+    //     jo: "الاردن",
+    //     kw: "الكويت",
+    //     lb: "لبنان",
+    //     om: "عمان",
+    //     ps: "فلسطين",
+    //     qa: "قطر",
+    //     sa: "السعوديه",
+    //     sy: "سوريا",
+    //     tr: "توركيا",
+    //     ae: "الامارات",
+    //     ye: "اليمن"
+    // }
+    // const countrySelect = document.getElementById('countries');
+    // const defaultOption = document.createElement('option');
+    // defaultOption.value = '';
+    // defaultOption.textContent = 'Select a country';
+    // countrySelect.appendChild(defaultOption);
+    // Object.entries(middleEastCountries).forEach(([key,country]) =>{
+    //     const option = document.createElement('option');
+    //     option.value = key;
+    //     option.textContent = country;
+    //     countrySelect.appendChild(option);
+    // })
+
+    //===========================================================
+
+    // console.log("Longitude: ========================================");
+    // if (navigator.geolocation) {
+    //     navigator.geolocation.getCurrentPosition(function(position) {
+    //         // Success callback: position contains latitude and longitude
+    //         const latitude = position.coords.latitude;
+    //         const longitude = position.coords.longitude;
+    //         console.log("Latitude: " + latitude);
+    //         console.log("Longitude: " + longitude);
+    //     }, function(error) {
+    //         console.error("Error code " + error.code + ": " + error.message);
+    //     });
+    // } else {
+    //     console.log("Geolocation is not supported by this browser.");
+    // }
+
+    //===============================================================
+
+    // function getLocation() {
+    //     if (navigator.geolocation) {
+    //         navigator.geolocation.getCurrentPosition(savePosition, positionError, {timeout:10000});
+    //     } else {
+    //         console.log("error");
+    //     }
+    // }
+
+    // getLocation();
+
+    // // handle the error here
+    // function positionError(error) {
+    //     var errorCode = error.code;
+    //     var message = error.message;
+    //     alert(message);
+    // }
+
+    // function savePosition(position) {
+    //     const latitude = position.coords.latitude;
+    //     const longitude = position.coords.longitude;
+    //     // console.log("Latitude: " + latitude);
+    //     // console.log("Longitude: " + longitude);
+    // }

@@ -1,0 +1,14 @@
+{
+  "name": "time-of-prayer",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "ahmed",
+  "license": "ISC",
+  "description": "project of time paryer",
+  "dependencies": {
+    "axios": "^1.8.1"
+  }
+}

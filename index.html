@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="icon" href="imgs/Logo.png">
+
+        <link rel="stylesheet" href="css/normalize.css">
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Tajawal:wght@200;300;400;500;700;800;900&display=swap" rel="stylesheet">
+        <title>TimeOfPrayerApps</title>
+    </head>
+    <body >
+        <div class="container mt-5">
+
+            <div class="row text-light border-bottom mb-5 p-4">
+                <div class="col-md-4 col-12">
+                    <div class="contact">
+                        <h1 id="city-name">مصر</h1>
+                        <h6 id="data">الجمعه 22 فبراير</h6>
+                    </div>
+                </div>
+                <div class="col-12 col-md-4 mt-5 fs-2 fw-bold text-center">
+                    <p class="mb-1">الوقت الآن</p>
+                    <span id="timeNow">00:00:00</span>
+                </div>
+                <div class="col-12 col-md-4 mt-5 fw-bold text-center">
+                    <p class="mb-1 fs-0">الوقت المتبقى للصلاة القادمة</p>
+                    <p id="next-prayer">00:00:00</p>
+                </div>
+            </div>
+
+            <hr>
+
+            <div class="row text-center">
+                <div class="col-12 col-md-2 mb-2">
+                    <div class="card">
+                        <div class="title">
+                            <h1>الفجر</h1>
+                        </div>
+                        <div class="body">
+                            <h1 class="time" id="fajer_time">6:00</h1>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-2 mb-2">
+                    <div class="card">
+                        <div class="title">
+                            <h1>الشروق</h1>
+                        </div>
+                        <div class="body">
+                            <h1 class="time" id="shoruk_time">6:00</h1>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-2 mb-2">
+                    <div class="card">
+                        <div class="title">
+                            <h1>الظهر</h1>
+                        </div>
+                        <div class="body">
+                            <h1 class="time" id="eldoher_time">6:00</h1>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-2 mb-2">
+                    <div class="card">
+                        <div class="title">
+                            <h1>العصر</h1>
+                        </div>
+                        <div class="body">
+                            <h1 class="time" id="aser_time">6:00</h1>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-2 mb-2">
+                    <div class="card">
+                        <div class="title">
+                            <h1>المغرب</h1>
+                        </div>
+                        <div class="body">
+                            <h1 class="time" id="mgrap_time">6:00</h1>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-2">
+                    <div class="card">
+                        <div class="title">
+                            <h1>العشاء</h1>
+                        </div>
+                        <div class="body">
+                            <h1 class="time" id="asha_time">6:00</h1>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row mt-4">
+                <div class="col-md-6 col-12">
+                    <select class="form-select form-select-lg mt-2" id="countries" aria-label=".form-select-lg example">
+                    </select>
+                </div>
+                <div class="col-md-6 col-12 mb-4">
+                    <select class="form-select form-select-lg mt-2" id="cities" aria-label=".form-select-lg example">
+                    </select>
+                </div>
+            </div>
+
+        </div>
+
+        <script src="./node_modules/axios/dist/axios.min.js"></script>
+        <script src="js/all.min.js"></script>
+        <script src="js/bootstrap.bundle.min.js"></script>
+        <script src="js/script.js"></script>
+    </body>
+</html>
